@@ -7,7 +7,7 @@ public class Square {
     private boolean filled;
     private int playerID;
 
-    public Square(int squareID, int squareRow, int squareCol, int playerID, boolean isFilled) {
+    public Square(int squareID, int squareRow, int squareCol, boolean isFilled) {
         this.squareID = squareID;
         this.squareRow = squareRow;
         this.squareCol = squareCol;
