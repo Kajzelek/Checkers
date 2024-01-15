@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29a304ab-851a-4e92-b523-90dde3d1573b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkers - Server/src/HandleSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/Checkers - Server/src/HandleSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checkers - Server/src/CheckersConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Checkers - Server/src/CheckersConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checkers - Server/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Checkers - Server/src/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,34 +36,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerMain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClientMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ServerMain.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Application.ClientMain">
+    <configuration name="ClientMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientMain" />
+      <module name="Checkers - Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ServerMain" />
       <module name="Checkers - Server" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.ServerMain" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientMain" />
         <item itemvalue="Application.ServerMain" />
       </list>
     </recent_temporary>
@@ -78,11 +92,339 @@
       <workItem from="1704832300119" duration="8691000" />
       <workItem from="1705176580165" duration="5497000" />
       <workItem from="1705220244953" duration="4731000" />
-      <workItem from="1705308100623" duration="1278000" />
+      <workItem from="1705308100623" duration="6212000" />
+      <workItem from="1705326381433" duration="40000" />
+      <workItem from="1705326432031" duration="142000" />
+      <workItem from="1705326594219" duration="6914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="177752">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="177752" />
+              <option name="initiateTms" value="1705339395439" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="Wyrzuca taki błąd:     /**&#10;     * Constructs a new BindException with the specified detail&#10;     * message as to why the bind error occurred.&#10;     * A detail message is a String that gives a specific&#10;     * description of this error.&#10;     * @param msg the detail message&#10;     */&#10;" />
+              <option name="response" value="" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="325219">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="325219" />
+              <option name="initiateTms" value="1705327048320" />
+              <option name="request" value="Wyskakuje okienko error - connection lost" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Okno błędu &quot;Connection lost&quot; wskazuje na utratę połączenia z serwerem. W przypadku tego kodu, wyjątek IOException jest przechwytywany w bloku try-catch w metodzie run(). Jeśli wystąpi wyjątek IOException, program wyświetli okno dialogowe z informacją o utracie połączenia i zakończy działanie.&#10;&#10;Aby rozwiązać ten problem, możemy dodać obsługę błędu i podjąć odpowiednie działania w przypadku utraty połączenia. Możemy również dodać obsługę innych wyjątków, takich jak InterruptedException, które również mogą wystąpić w metodzie run().&#10;&#10;Oto zmodyfikowany kod, który obsługuje błąd utraty połączenia:&#10;&#10;```java&#10;import java.awt.Component;&#10;import java.io.DataInputStream;&#10;import java.io.DataOutputStream;&#10;import java.io.IOException;&#10;import java.util.Iterator;&#10;import java.util.LinkedList;&#10;import javax.swing.Icon;&#10;import javax.swing.JOptionPane;&#10;&#10;public class Controller implements Runnable {&#10;    private boolean continueToPlay;&#10;    private boolean waitingForAction;&#10;    private boolean isOver;&#10;    private DataInputStream fromServer;&#10;    private DataOutputStream toServer;&#10;    private BoardPanel boardPanel;&#10;    private Player player;&#10;    private LinkedList&lt;Square&gt; selectedSquares;&#10;    private LinkedList&lt;Square&gt; playableSquares;&#10;&#10;    public Controller(Player var1, DataInputStream var2, DataOutputStream var3) {&#10;        this.player = var1;&#10;        this.fromServer = var2;&#10;        this.toServer = var3;&#10;        this.selectedSquares = new LinkedList();&#10;        this.playableSquares = new LinkedList();&#10;    }&#10;&#10;    public void setBoardPanel(BoardPanel var1) {&#10;        this.boardPanel = var1;&#10;    }&#10;&#10;    public void run() {&#10;        this.continueToPlay = true;&#10;        this.waitingForAction = true;&#10;        this.isOver = false;&#10;&#10;        try {&#10;            if (this.player.getPlayerID() == CheckersConstants.PLAYER_ONE.getValue()) {&#10;                this.fromServer.readInt();&#10;                this.player.setMyTurn(true);&#10;            }&#10;&#10;            while (this.continueToPlay &amp;&amp; !this.isOver) {&#10;                if (this.player.getPlayerID() == CheckersConstants.PLAYER_ONE.getValue()) {&#10;                    this.waitForPlayerAction();&#10;                    if (!this.isOver) {&#10;                        this.receiveInfoFromServer();&#10;                    }&#10;                } else if (this.player.getPlayerID() == CheckersConstants.PLAYER_TWO.getValue()) {&#10;                    this.receiveInfoFromServer();&#10;                    if (!this.isOver) {&#10;                        this.waitForPlayerAction();&#10;                    }&#10;                }&#10;            }&#10;&#10;            if (this.isOver) {&#10;                JOptionPane.showMessageDialog((Component) null, &quot;Game is over&quot;, &quot;Information&quot;, 1, (Icon) null);&#10;                System.exit(0);&#10;            }&#10;        } catch (IOException var2) {&#10;            handleConnectionLostError();&#10;        } catch (InterruptedException var3) {&#10;            handleConnectionInterruptedError();&#10;        }&#10;&#10;    }&#10;&#10;    private void handleConnectionLostError() {&#10;        JOptionPane.showMessageDialog((Component) null, &quot;Connection lost&quot;, &quot;Error&quot;, 0, (Icon) null);&#10;        System.exit(0);&#10;    }&#10;&#10;    private void handleConnectionInterruptedError() {&#10;        JOptionPane.showMessageDialog((Component) null, &quot;Connection interrupted&quot;, &quot;Error&quot;, 0, (Icon) null);&#10;        System.exit(0);&#10;    }&#10;&#10;    private void receiveInfoFromServer() throws IOException {&#10;        this.player.setMyTurn(false);&#10;        int var1 = this.fromServer.readInt();&#10;        int var2;&#10;        if (var1 == CheckersConstants.LOSE.getValue()) {&#10;            var1 = this.fromServer.readInt();&#10;            var2 = this.fromServer.readInt();&#10;            this.updateReceivedInfo(var1, var2);&#10;            this.isOver = true;&#10;        } else if (var1 == CheckersConstants.WIN.getValue()) {&#10;            this.isOver = true;&#10;            this.continueToPlay = false;&#10;        } else {&#10;            var2 = this.fromServer.readInt();&#10;            this.updateReceivedInfo(var1, var2);&#10;        }&#10;&#10;    }&#10;&#10;    private void sendMove(Square var1, Square var2) throws IOException {&#10;        this.toServer.writeInt(var1.getSquareID());&#10;        this.toServer.writeInt(var2.getSquareID());&#10;    }&#10;&#10;    private void waitForPlayerAction() throws InterruptedException {&#10;        this.player.setMyTurn(true);&#10;&#10;        while (this.waitingForAction) {&#10;            Thread.sleep(100L);&#10;        }&#10;&#10;        this.waitingForAction = true;&#10;    }&#10;&#10;    public void move(Square var1, Square var2) {&#10;        var2.setPlayerID(var1.getPlayerID());&#10;        var1.setPlayerID(CheckersConstants.EMPTY_SQUARES.getValue());&#10;        this.checkCrossJump(var1, var2);&#10;        this.checkKing(var1, var2);&#10;        this.squareDeselected();&#10;        this.waitingForAction = false;&#10;&#10;        try {&#10;            this.sendMove(var1, var2);&#10;        } catch (IOException var4) {&#10;            System.out.println(&quot;Sending failed&quot;);&#10;        }&#10;&#10;    }&#10;&#10;    public void squareSelected(Square var1) {&#10;        if (this.selectedSquares.isEmpty()) {&#10;            this.addToSelected(var1);&#10;        } else if (this.selectedSquares.size() &gt;= 1) {&#10;            if (this.playableSquares.contains(var1)) {&#10;                this.move((Square) this.selectedSquares.getFirst(), var1);&#10;            } else {&#10;                this.squareDeselected();&#10;                this.addToSelected(var1);&#10;            }&#10;        }&#10;&#10;    }&#10;&#10;    private void addToSelected(Square var1) {&#10;        var1.setSelected(true);&#10;        this.selectedSquares.add(var1);&#10;        this.getPlayableSquares(var1);&#10;    }&#10;&#10;    public void squareDeselected() {&#10;        Iterator var1 = this.selectedSquares.iterator();&#10;&#10;        Square var2;&#10;        while (var1.hasNext()) {&#10;            var2 = (Square) var1.next();&#10;            var2.setSelected(false);&#10;        }&#10;&#10;        this.selectedSquares.clear();&#10;        var1 = this.playableSquares.iterator();&#10;&#10;Dodałem obsługę błędu utraty połączenia w metodzie `handleConnectionLostError()`. Teraz, gdy wystąpi błąd utraty połączenia, program wyświetli okno dialogowe z informacją o utracie połączenia i zakończy działanie.&#10;&#10;Dodatkowo, dodałem również obsługę błędu przerwania połączenia w metodzie `handleConnectionInterruptedError()`. Jeśli wystąpi błąd przerwania połączenia, program wyświetli okno dialogowe z informacją o przerwaniu połączenia i zakończy działanie.&#10;&#10;Mam nadzieję, że to rozwiąże problem z oknem błędu &quot;Connection lost&quot;. Jeśli masz jakieś dodatkowe pytania, daj mi znać!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705327067149" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="59b90d">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                </list>
+              </option>
+              <option name="id" value="59b90d" />
+              <option name="initiateTms" value="1705339447243" />
+              <option name="request" value="Możesz to naprawić?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Niestety, jako AI nie mam możliwości bezpośredniego dostępu do Twojego systemu operacyjnego ani do uruchomionych procesów. Naprawa tego problemu wymaga interakcji na poziomie systemu operacyjnego.&#10;&#10;Jednak mogę podać Ci ogólne wskazówki, które mogą pomóc Ci naprawić ten problem:&#10;&#10;1. Sprawdź, czy inna instancja serwera jest już uruchomiona: Upewnij się, że nie masz innej instancji serwera działającej na tym samym porcie. Sprawdź, czy nie ma innych procesów lub aplikacji, które używają tego samego portu. Możesz użyć narzędzi takich jak Monitor zasobów systemu lub menedżer zadań, aby zidentyfikować i zakończyć te procesy.&#10;&#10;2. Zmień port: Jeśli inna aplikacja używa portu, który próbujesz użyć, możesz spróbować zmienić numer portu, na którym serwer nasłuchuje. Upewnij się, że wybierasz port, który nie jest używany przez żadną inną aplikację na Twoim systemie.&#10;&#10;3. Sprawdź konfigurację sieciową: Upewnij się, że nie ma konfliktów w konfiguracji sieciowej, które mogą powodować problem z powiązaniem adresu i portu. Sprawdź ustawienia sieciowe, takie jak adres IP i maska podsieci, aby upewnić się, że są poprawnie skonfigurowane.&#10;&#10;4. Uruchom serwer jako administrator: Jeśli pracujesz na systemie operacyjnym, który wymaga uprawnień administratora do powiązania z określonym portem, spróbuj uruchomić serwer jako administrator.&#10;&#10;Pamiętaj, że te wskazówki są ogólne i mogą się różnić w zależności od Twojego systemu operacyjnego i środowiska programistycznego. Jeśli nadal masz problemy z naprawą tego błędu, zalecam skonsultowanie się z bardziej doświadczonym programistą lub specjalistą ds. sieci." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705339454474" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="5c649a">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="5c649a" />
+              <option name="initiateTms" value="1705326599524" />
+              <option name="request" value="Hej działasz?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Tak, jestem tutaj i gotowy, aby pomóc Ci w Twoim projekcie programistycznym. W czym mogę Ci pomóc?" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705326601161" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="619092">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="619092" />
+              <option name="initiateTms" value="1705340401745" />
+              <option name="request" value="błąd występuje przy pierwszym ruchu pierwszego zawodnika, co zrobić żeby go naprawić" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Aby naprawić błąd występujący przy pierwszym ruchu pierwszego zawodnika, musisz dodać kod, który sprawdzi, czy ruch jest prawidłowy przed wysłaniem go do serwera. Obecnie, kod wysyła ruch bez sprawdzania, czy jest to dozwolony ruch.&#10;&#10;W metodzie `move(Square var1, Square var2)`, dodaj następujący kod przed wysłaniem ruchu do serwera:&#10;&#10;```java&#10;public void move(Square var1, Square var2) {&#10;    // Sprawdź, czy ruch jest dozwolony&#10;    if (!isMoveValid(var1, var2)) {&#10;        // Jeśli ruch jest nieprawidłowy, wyświetl komunikat lub podejmij odpowiednie działania&#10;        System.out.println(&quot;Invalid move&quot;);&#10;        return;&#10;    }&#10;&#10;    var2.setPlayerID(var1.getPlayerID());&#10;    var1.setPlayerID(CheckersConstants.EMPTY_SQUARES.getValue());&#10;    this.checkCrossJump(var1, var2);&#10;    this.checkKing(var1, var2);&#10;    this.squareDeselected();&#10;    this.waitingForAction = false;&#10;&#10;    try {&#10;        this.sendMove(var1, var2);&#10;    } catch (IOException var4) {&#10;        System.out.println(&quot;Sending failed&quot;);&#10;    }&#10;}&#10;```&#10;&#10;Następnie, dodaj metodę `isMoveValid(Square var1, Square var2)`, która będzie sprawdzać, czy ruch jest dozwolony. Możesz użyć następującego kodu jako punktu wyjścia:&#10;&#10;```java&#10;private boolean isMoveValid(Square var1, Square var2) {&#10;    // Sprawdź, czy var1 i var2 są sąsiednimi polami&#10;    if (!isAdjacent(var1, var2)) {&#10;        return false;&#10;    }&#10;&#10;    // Sprawdź, czy var2 jest puste pole&#10;    if (var2.getPlayerID() != CheckersConstants.EMPTY_SQUARES.getValue()) {&#10;        return false;&#10;    }&#10;&#10;    // Dodaj dodatkowe warunki sprawdzające poprawność ruchu, np. czy pionek może wykonać skok&#10;&#10;    return true;&#10;}&#10;&#10;private boolean isAdjacent(Square var1, Square var2) {&#10;    int rowDiff = Math.abs(var1.getSquareRow() - var2.getSquareRow());&#10;    int colDiff = Math.abs(var1.getSquareCol() - var2.getSquareCol());&#10;&#10;    return (rowDiff == 1 &amp;&amp; colDiff == 1);&#10;}&#10;```&#10;&#10;Ten kod sprawdzi, czy ruch jest dozwolony, sprawdzając, czy pola `var1` i `var2` są sąsiednie oraz czy pole `var2` jest puste. Możesz dodać dodatkowe warunki, które sprawdzą inne reguły gry, np. czy pionek może wykonać skok.&#10;&#10;Po dodaniu tych zmian, kod powinien sprawdzać poprawność ruchu przed jego wykonaniem i uniknąć błędu, który występuje przy pierwszym ruchu pierwszego zawodnika." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705340409557" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="681157">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="681157" />
+              <option name="initiateTms" value="1705326613369" />
+              <option name="request" value="Super, czy potrafisz analizować mój kod?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Oczywiście! Chętnie przeanalizuję Twój kod. Co dokładnie chciałbyś, żebym sprawdził?" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705326615823" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="772cb5">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="772cb5" />
+              <option name="initiateTms" value="1705326750059" />
+              <option name="request" value="Mój porgram, to aplikacja, która jest grą w warcaby oparta o java networking. Aplikacja zostaje uruchomiona na portach 50800 od strony serwera oraz od strony clienta-gracza. Gdy 2 graczy osiągnie połączenie, gracz pierwszy może dokonać ruchu. Niestety kiedy przestawie dowolny pionek na inne pole, aplikacja traci połączenie, nie wiem dlaczego. Pomożesz mi znaleźć błąd?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Oczywiście, postaram się pomóc. Wygląda na to, że problem występuje po przestawieniu pionka na inne pole. Sprawdźmy kod, aby znaleźć potencjalne przyczyny problemu.&#10;&#10;W pliku `Controller.java` widzę, że metoda `move(Square var1, Square var2)` jest odpowiedzialna za przesuwanie pionka na inne pole. Przeanalizujmy tę metodę, aby sprawdzić, czy jest tam jakiś błąd.&#10;&#10;```java&#10;public void move(Square var1, Square var2) {&#10;    var2.setPlayerID(var1.getPlayerID());&#10;    var1.setPlayerID(CheckersConstants.EMPTY_SQUARES.getValue());&#10;    this.checkCrossJump(var1, var2);&#10;    this.checkKing(var1, var2);&#10;    this.squareDeselected();&#10;    this.waitingForAction = false;&#10;&#10;    try {&#10;        this.sendMove(var1, var2);&#10;    } catch (IOException var4) {&#10;        System.out.println(&quot;Sending failed&quot;);&#10;    }&#10;}&#10;```&#10;&#10;Na pierwszy rzut oka, nie widzę żadnych oczywistych błędów w tej metodzie. Jednakże, mogą być inne przyczyny problemu. Sprawdźmy inne części kodu, które mogą mieć wpływ na utratę połączenia.&#10;&#10;W metodzie `run()`, widzę, że po otrzymaniu informacji od serwera, wywoływana jest metoda `receiveInfoFromServer()`. Sprawdźmy tę metodę, aby zobaczyć, czy tam jest jakiś błąd.&#10;&#10;```java&#10;private void receiveInfoFromServer() throws IOException {&#10;    this.player.setMyTurn(false);&#10;    int var1 = this.fromServer.readInt();&#10;    int var2;&#10;    if (var1 == CheckersConstants.LOSE.getValue()) {&#10;        var1 = this.fromServer.readInt();&#10;        var2 = this.fromServer.readInt();&#10;        this.updateReceivedInfo(var1, var2);&#10;        this.isOver = true;&#10;    } else if (var1 == CheckersConstants.WIN.getValue()) {&#10;        this.isOver = true;&#10;        this.continueToPlay = false;&#10;    } else {&#10;        var2 = this.fromServer.readInt();&#10;        this.updateReceivedInfo(var1, var2);&#10;    }&#10;}&#10;```&#10;&#10;W tej metodzie, otrzymujemy informacje od serwera i wywołujemy metodę `updateReceivedInfo(int var1, int var2)`, która aktualizuje planszę gry. Sprawdźmy tę metodę, aby upewnić się, że tam nie ma żadnych błędów.&#10;&#10;```java&#10;private void updateReceivedInfo(int var1, int var2) {&#10;    Square var3 = this.boardPanel.getSquare(var1);&#10;    Square var4 = this.boardPanel.getSquare(var2);&#10;    var4.setPlayerID(var3.getPlayerID());&#10;    var3.setPlayerID(CheckersConstants.EMPTY_SQUARES.getValue());&#10;    this.checkCrossJump(var3, var4);&#10;    this.checkKing(var3, var4);&#10;    this.boardPanel.repaintPanels();&#10;}&#10;```&#10;&#10;Na pierwszy rzut oka, nie widzę żadnych oczywistych błędów w tych metodach. Jednakże, mogą być inne przyczyny problemu. Sprawdźmy inne części kodu, które mogą mieć wpływ na utratę połączenia.&#10;&#10;Czy możesz podać więcej informacji na temat tego, jakie błędy lub komunikaty o błędach otrzymujesz? Czy masz jakiekolwiek logi lub wyjątki, które mogą pomóc w zidentyfikowaniu problemu?" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705326758615" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="940523">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="940523" />
+              <option name="initiateTms" value="1705340104339" />
+              <option name="request" value="java.io.EOFException&#10;ten błąd występuje w tej linii&#10;        } catch (IOException var2) {&#10;            JOptionPane.showMessageDialog((Component)null, &quot;Connection lost&quot;, &quot;Error&quot;, 0, (Icon)null);&#10;            System.out.println(var2);&#10;            System.exit(0);&#10;jak go naprawić" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Błąd java.io.EOFException oznacza, że wystąpił koniec strumienia danych wejściowych. W tym przypadku, błąd występuje w bloku catch, gdy próbujemy odczytać dane z serwera, ale strumień danych jest już pusty.&#10;&#10;Aby naprawić ten błąd, możemy dodać obsługę wyjątku EOFException i odpowiednio zareagować na ten scenariusz. Zamiast natychmiastowego zakończenia programu, możemy wyświetlić odpowiednie komunikaty dla użytkownika i zakończyć grę w sposób kontrolowany.&#10;&#10;Poniżej przedstawiam zmodyfikowany kod, który obsługuje błąd EOFException:&#10;&#10;```java&#10;try {&#10;    if (this.player.getPlayerID() == CheckersConstants.PLAYER_ONE.getValue()) {&#10;        this.fromServer.readInt();&#10;        this.player.setMyTurn(true);&#10;    }&#10;&#10;    while (this.continueToPlay &amp;&amp; !this.isOver) {&#10;        if (this.player.getPlayerID() == CheckersConstants.PLAYER_ONE.getValue()) {&#10;            this.waitForPlayerAction();&#10;            if (!this.isOver) {&#10;                try {&#10;                    this.receiveInfoFromServer();&#10;                } catch (EOFException e) {&#10;                    JOptionPane.showMessageDialog(null, &quot;Connection lost&quot;, &quot;Error&quot;, 0, null);&#10;                    System.exit(0);&#10;                }&#10;            }&#10;        } else if (this.player.getPlayerID() == CheckersConstants.PLAYER_TWO.getValue()) {&#10;            try {&#10;                this.receiveInfoFromServer();&#10;            } catch (EOFException e) {&#10;                JOptionPane.showMessageDialog(null, &quot;Connection lost&quot;, &quot;Error&quot;, 0, null);&#10;                System.exit(0);&#10;            }&#10;            if (!this.isOver) {&#10;                this.waitForPlayerAction();&#10;            }&#10;        }&#10;    }&#10;&#10;    if (this.isOver) {&#10;        JOptionPane.showMessageDialog(null, &quot;Game is over&quot;, &quot;Information&quot;, 1, null);&#10;        System.exit(0);&#10;    }&#10;} catch (IOException var2) {&#10;    JOptionPane.showMessageDialog(null, &quot;Connection lost&quot;, &quot;Error&quot;, 0, null);&#10;    System.out.println(var2);&#10;    System.exit(0);&#10;} catch (InterruptedException var3) {&#10;    JOptionPane.showMessageDialog(null, &quot;Connection interrupted&quot;, &quot;Error&quot;, 0, null);&#10;}&#10;```&#10;&#10;W tym kodzie, dodaliśmy bloki try-catch wewnątrz pętli while, które obsługują EOFException. Jeśli wystąpi ten wyjątek, wyświetlamy odpowiedni komunikat dla użytkownika i kończymy program.&#10;&#10;Pamiętaj, że obsługa EOFException jest tylko jednym z możliwych rozwiązań. W zależności od wymagań i kontekstu aplikacji, można podjąć inne działania, takie jak ponowne połączenie z serwerem lub zakończenie gry w inny sposób." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705340111893" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="b3a4e1">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="b3a4e1" />
+              <option name="initiateTms" value="1705337948276" />
+              <option name="request" value="A czy to nie błąd związany z tym blokiem try? {&#10;            if (this.player.getPlayerID() == CheckersConstants.PLAYER_ONE.getValue()) {&#10;                this.fromServer.readInt();&#10;                this.player.setMyTurn(true);&#10;            }&#10;&#10;            while(this.continueToPlay &amp;&amp; !this.isOver) {&#10;                if (this.player.getPlayerID() == CheckersConstants.PLAYER_ONE.getValue()) {&#10;                    this.waitForPlayerAction();&#10;                    if (!this.isOver) {&#10;                        this.receiveInfoFromServer();&#10;                    }&#10;                } else if (this.player.getPlayerID() == CheckersConstants.PLAYER_TWO.getValue()) {&#10;                    this.receiveInfoFromServer();&#10;                    if (!this.isOver) {&#10;                        this.waitForPlayerAction();&#10;                    }&#10;                }&#10;            }&#10;&#10;            if (this.isOver) {&#10;                JOptionPane.showMessageDialog((Component)null, &quot;Game is over&quot;, &quot;Information&quot;, 1, (Icon)null);&#10;                System.exit(0);&#10;            }&#10;        }" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Nie ma żadnego błędu w tym bloku try. Wygląda na to, że ten blok kodu obsługuje logikę gry w warcabach. Jeśli gracz ma ID równy PLAYER_ONE, to oczekuje na akcję gracza, a następnie odbiera informacje od serwera. Jeśli gracz ma ID równy PLAYER_TWO, to najpierw odbiera informacje od serwera, a następnie oczekuje na akcję gracza. Pętla while sprawdza warunki kontynuacji gry, czyli czy gra nadal trwa i czy nie jest zakończona. Jeśli gra się zakończyła, wyświetla się odpowiednie powiadomienie, a program kończy działanie." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705338001514" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                  <option value="$PROJECT_DIR$/Checkers - Server/src/Game.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="ccd76b">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="ccd76b" />
+              <option name="initiateTms" value="1705338069238" />
+              <option name="request" value="To dlaczego wyskakuję błąd w tej funkcji z wyjątku IOException?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Błąd IOException w tej funkcji może wystąpić z kilku powodów. Oto kilka możliwych przyczyn:&#10;&#10;1. Problem z połączeniem sieciowym: Błąd IOException może być spowodowany problemami z połączeniem sieciowym między klientem a serwerem. Może to obejmować problemy z siecią, takie jak utrata połączenia, niestabilne połączenie lub błędy w konfiguracji sieciowej.&#10;&#10;2. Błąd w strumieniach danych: Błąd IOException może wystąpić, jeśli wystąpi błąd podczas odczytu lub zapisu danych za pomocą strumieni danych (DataInputStream i DataOutputStream). Może to być spowodowane problemami związanych z operacjami wejścia/wyjścia, takimi jak nieprawidłowe dane, brak dostępu do plików lub błędy w strukturze danych.&#10;&#10;3. Błąd w serwerze: Błąd IOException może również wystąpić, jeśli serwer napotkał błąd lub problem podczas przetwarzania żądania klienta. Może to obejmować błędy w logice biznesowej serwera, problem z bazą danych lub inne problemy związane z serwerem.&#10;&#10;Aby zdiagnozować dokładną przyczynę błędu IOException, warto sprawdzić szczegóły wyjątku, które są wyświetlane w konsoli lub dzienniku zdarzeń. Można również sprawdzić logi serwera, aby znaleźć informacje o błędach lub ostrzeżeniach związanych z połączeniem." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705338078929" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="d14ee6">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                </list>
+              </option>
+              <option name="id" value="d14ee6" />
+              <option name="initiateTms" value="1705339482324" />
+              <option name="request" value="A możesz dać propozycje poprawnego rozwiązania?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Oczywiście! Oto kilka propozycji poprawnego rozwiązania dla błędu &quot;java.net.BindException: Address already in use: bind&quot;:&#10;&#10;1. Zmień numer portu: Spróbuj zmienić numer portu, na którym serwer nasłuchuje. Możesz wybrać inny numer portu, który nie jest używany przez żadną inną aplikację na Twoim systemie. Na przykład, zamiast używać portu 8080, spróbuj użyć portu 8888.&#10;&#10;```java&#10;int port = 8888;&#10;ServerSocket serverSocket = new ServerSocket(port);&#10;```&#10;&#10;2. Zakończ procesy używające portu: Sprawdź, czy istnieją inne procesy lub aplikacje, które używają tego samego portu. Możesz użyć narzędzi takich jak Monitor zasobów systemu lub menedżer zadań, aby zidentyfikować i zakończyć te procesy. Następnie spróbuj ponownie uruchomić serwer.&#10;&#10;3. Poczekaj na zwolnienie portu: Jeśli port jest tymczasowo zajęty przez inny proces, możesz poczekać kilka chwil i spróbować ponownie uruchomić serwer.&#10;&#10;4. Sprawdź konfigurację sieciową: Upewnij się, że nie ma konfliktów w konfiguracji sieciowej, które mogą powodować problem z powiązaniem adresu i portu. Sprawdź ustawienia sieciowe, takie jak adres IP i maska podsieci, aby upewnić się, że są poprawnie skonfigurowane.&#10;&#10;Pamiętaj, że te propozycje są ogólne i mogą wymagać dostosowania do Twojego konkretnego przypadku. Jeśli nadal masz problemy, warto skonsultować się z bardziej doświadczonym programistą lub specjalistą ds. sieci, aby uzyskać bardziej szczegółowe wsparcie." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705339492675" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="e424a0">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+              <option name="id" value="e424a0" />
+              <option name="initiateTms" value="1705338043163" />
+              <option name="request" value="A czy porty się nie zatykają przy wysyłaniu i odbieraniu danych i przez to wyskakuje błąd?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="W tym kodzie nie ma bezpośredniego zarządzania portami. Komunikacja między klientem a serwerem odbywa się za pomocą strumieni danych (DataInputStream i DataOutputStream), które korzystają z połączenia sieciowego. Jeśli występuje błąd związany z połączeniem, to może być spowodowany problemami z siecią lub serwerem.&#10;&#10;W przypadku błędu IOException, który jest obsługiwany w bloku catch, program wyświetla odpowiednie powiadomienie o utracie połączenia lub przerwaniu połączenia. Następnie program kończy działanie za pomocą metody System.exit(0). Jeśli chcesz zdiagnozować problem z połączeniem, możesz sprawdzić, czy serwer działa poprawnie i czy nie ma problemów z siecią." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705338048424" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/Checkers - Client/src/Controller.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="e99013">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                  <option value="$PROJECT_DIR$/Checkers - Server/src/ServerMain.java" />
+                </list>
+              </option>
+              <option name="id" value="e99013" />
+              <option name="initiateTms" value="1705339420592" />
+              <option name="request" value="Wyrzuca taki błąd: C:\Users\patry\.jdks\openjdk-21.0.1\bin\java.exe &quot;-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=55896:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin&quot; -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath &quot;C:\STUDIA\Programming\Projekty\Checkers\out\production\Checkers - Server&quot; ServerMain&#10;java.net.BindException: Address already in use: bind&#10;&#9;at java.base/sun.nio.ch.Net.bind0(Native Method)&#10;&#9;at java.base/sun.nio.ch.Net.bind(Net.java:565)&#10;&#9;at java.base/sun.nio.ch.Net.bind(Net.java:554)&#10;&#9;at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)&#10;&#9;at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)&#10;&#9;at java.base/java.net.ServerSocket.&lt;init&gt;(ServerSocket.java:278)&#10;&#9;at java.base/java.net.ServerSocket.&lt;init&gt;(ServerSocket.java:171)&#10;&#9;at ServerApp.startRunning(ServerApp.java:35)&#10;&#9;at ServerMain.main(ServerMain.java:11)&#10;&#10;Process finished with exit code 0&#10;" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Błąd &quot;java.net.BindException: Address already in use: bind&quot; oznacza, że ​​port, który próbujesz użyć, jest już zajęty przez inny proces lub aplikację. W przypadku tego błędu, serwer nie może powiązać się z określonym adresem i portem, ponieważ są one już używane przez inną instancję serwera lub inną aplikację.&#10;&#10;Aby rozwiązać ten problem, możesz spróbować jednego z następujących rozwiązań:&#10;&#10;1. Zmień port: Spróbuj zmienić numer portu, na którym serwer nasłuchuje. Upewnij się, że wybierasz port, który nie jest używany przez żadną inną aplikację na twoim systemie.&#10;&#10;2. Zakończ procesy używające portu: Sprawdź, czy istnieją inne procesy lub aplikacje, które używają tego samego portu. Możesz użyć narzędzi takich jak Monitor zasobów systemu lub menedżer zadań, aby zidentyfikować i zakończyć te procesy.&#10;&#10;3. Poczekaj na zwolnienie portu: Jeśli port jest tymczasowo zajęty przez inny proces, możesz poczekać kilka chwil i spróbować ponownie uruchomić serwer.&#10;&#10;4. Sprawdź konfigurację sieciową: Upewnij się, że nie ma konfliktów w konfiguracji sieciowej, które mogą powodować problem z powiązaniem adresu i portu.&#10;&#10;Po zastosowaniu jednego z tych rozwiązań, spróbuj ponownie uruchomić serwer i sprawdź, czy błąd nadal występuje." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705339429488" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/net/BindException.java" />
+                  <option value="$PROJECT_DIR$/Checkers - Server/src/ServerMain.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1705326590992" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1705326592858" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
